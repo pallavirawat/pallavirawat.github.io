@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "First Try"
+date:   2020-05-16 03:17:53 +0530
+categories: jekyll update github-pages
+---
+So after quite hit and trials the website is up. Phew.
+
+Now we shall do more play around! 
+
+`kotlin`
+
+simple example code for this first markdown
+
+{% highlight kotlin %}
+fun main(){
+    println("since everything starts with hello")
+}
+{% endhighlight %}
+
+Check out the [Kotlin docs][kotlin-docs] for more info on how to write kotlin.
+
+[kotlin-docs]: https://https://kotlinlang.org/
