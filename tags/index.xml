@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - Pallavi Rawat</title>
+        <title>Tags - Tag - Home</title>
         <link>https://rawatpallavi.com/tags/</link>
-        <description>Tags - Tag - Pallavi Rawat</description>
+        <description>Tags - Tag - Home</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>me@rawatpallavi.com (Pallavi Rawat)</managingEditor>
             <webMaster>me@rawatpallavi.com (Pallavi Rawat)</webMaster><atom:link href="https://rawatpallavi.com/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
