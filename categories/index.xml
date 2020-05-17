@@ -3,5 +3,6 @@
         <title>Categories - Category - Pallavi Rawat</title>
         <link>https://rawatpallavi.com/categories/</link>
         <description>Categories - Category - Pallavi Rawat</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://rawatpallavi.com/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>me@rawatpallavi.com (Pallavi Rawat)</managingEditor>
+            <webMaster>me@rawatpallavi.com (Pallavi Rawat)</webMaster><atom:link href="https://rawatpallavi.com/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>
