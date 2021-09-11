@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Managing Multiple Git Profiles - Home</title><meta name="Description" content="how to maintain multiple git profiles without much hassle"><meta property="og:title" content="Managing Multiple Git Profiles" />
+<meta property="og:description" content="how to maintain multiple git profiles without much hassle" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rawatpallavi.com/posts/multiple-git-profiles/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-11T21:24:39&#43;05:30" />
+<meta property="article:modified_time" content="2021-09-11T21:24:39&#43;05:30" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Managing Multiple Git Profiles"/>
+<meta name="twitter:description" content="how to maintain multiple git profiles without much hassle"/>
+<meta name="application-name" content="Home">
+<meta name="apple-mobile-web-app-title" content="Home"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://rawatpallavi.com/posts/multiple-git-profiles/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Managing Multiple Git Profiles",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/rawatpallavi.com\/posts\/multiple-git-profiles\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/rawatpallavi.com\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "git, tech","wordcount":  406 ,
+        "url": "https:\/\/rawatpallavi.com\/posts\/multiple-git-profiles\/","datePublished": "2021-09-11T21:24:39+05:30","dateModified": "2021-09-11T21:24:39+05:30","publisher": {
+                "@type": "Organization",
+                "name": "xxxx",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/rawatpallavi.com\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Pallavi Rawat"
+            },"description": "how to maintain multiple git profiles without much hassle"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Home"><img
+        class="lazyload logo"
+        src="/svg/loading/small.min.svg"
+        data-src="/images/igloo-solid.svg"
+        data-srcset="/images/igloo-solid.svg, /images/igloo-solid.svg 1.5x, /images/igloo-solid.svg 2x"
+        data-sizes="auto"
+        alt="Home"
+        title="Home" /></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Home"><img
+        class="lazyload logo"
+        src="/svg/loading/small.min.svg"
+        data-src="/images/igloo-solid.svg"
+        data-srcset="/images/igloo-solid.svg, /images/igloo-solid.svg 1.5x, /images/igloo-solid.svg 2x"
+        data-sizes="auto"
+        alt="Home"
+        title="Home" /></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Managing Multiple Git Profiles</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Pallavi Rawat</a></span>&nbsp;
+                    <span class="post-category">included in<a href="/categories/git/">
+                                <i class="far fa-folder fa-fw"></i>git
+                            </a>&nbsp;<a href="/categories/tech/">
+                                <i class="far fa-folder fa-fw"></i>tech
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2021-09-11>2021-09-11</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;about 406 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;2 min&nbsp;</div>
+        </div><div class="content" id="content"><p><br/><br/>
+Personally I really like to organise things especially profiles that I can maintain when I am using same laptop for
+personal and work repositories.<br/>
+No one wants to commit on a work repo with their private personal email. So you can either change that setting at repo level
+or just have flexible config which is smart to use the right config with the right repository.<br/>
+There are definitely multiple ways to get this done.
+The one that I use is via multiple git configs. It is neat and easier to create more profiles.
+Let&rsquo;s jump onto this&hellip;</p>
+<br/>
+<h3 id="lets-cover-some-basics-first">Lets cover some Basics first</h3>
+<p>For any git config, git usually looks first in <code>[path]/etc/gitconfig</code> file which is system wide i.e for all users
+in the system. It then looks into <code>~/.gitconfig (or ~/.config/git/config) </code> which is user specific.
+I usually make changes into user specific only. But depending on your need you can also make changes acordingly.
+For simplicity consider the below steps are for user specific changes only but you can extend them if needed for system wide.
+More <a href="~/.gitconfig" title="or ~/.config/git/config" rel="">here</a></p>
+<br/>
+<h3 id="over-to-the-main-task">Over to the main task</h3>
+<p>Time to create multiple gitconfigs now.<br/>
+Lets say we want to create 2 profiles one for work and one personal</p>
+<p>So we will go ahead and create two gitconfigs as follows into our home directory</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#config-1 : this is for personal work</span>
+touch ~/.gitconfig-personal
+
+<span class="c1">#config-2 : this is for official work</span>
+touch ~/.gitconfig-work
+</code></pre></td></tr></table>
+</div>
+</div><br/>
+Usually we would want our name and email id separate for sure for these two profiles.
+So lets go ahead and put it into these two config files
+<p>For <strong>gitconfig-personal</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>user<span class="o">]</span>
+	<span class="nv">name</span> <span class="o">=</span> coder bill
+	<span class="nv">email</span> <span class="o">=</span> bill-personal@example.com
+</code></pre></td></tr></table>
+</div>
+</div><br/>
+<p>For <strong>gitconfig-work</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>user<span class="o">]</span>
+	<span class="nv">name</span> <span class="o">=</span> Bill Saga
+	<span class="nv">email</span> <span class="o">=</span> bill-working@example.com
+</code></pre></td></tr></table>
+</div>
+</div><p>You can put anything here, whatever git config you only want to use for a particular profile</p>
+<blockquote>
+<p>For list of various git configs options see <a href="https://git-scm.com/docs/git-config" target="_blank" rel="noopener noreffer">here</a></p>
+</blockquote>
+<br/>
+<p>Over to the most important work, I would like to tell my git to use these configs whenever I am in a particular repo/directory.
+We will go ahead and add this config into our main <strong>~/gitconfig</strong> file which is what git is aware of by default.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">[includeIf &#34;gitdir:/Users/bill/PersonalProjects/**&#34;]
+    path = ./.gitconfig-personal
+
+[includeIf &#34;gitdir:/Users/bill/MyCompanyProjects/**&#34;]
+    path = ./.gitconfig-work
+</code></pre></td></tr></table>
+</div>
+</div><p><br/><br/>
+That&rsquo;s it 🚀
+No need to change config everytime for every repo separately.
+No more embarrassing mistakes of using wrong configs for wrong repo.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>The article was updated on 2021-09-11</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-title="Managing Multiple Git Profiles" data-via="_rawatpallavi" data-hashtags="git,tech"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-hashtag="git"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-title="Managing Multiple Git Profiles" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Pinterest" data-sharer="pinterest" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-description="how to maintain multiple git profiles without much hassle"><i class="fab fa-pinterest fa-fw"></i></a><a href="javascript:void(0);" title="Share on Tumblr" data-sharer="tumblr" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-title="Managing Multiple Git Profiles" data-caption="how to maintain multiple git profiles without much hassle" data-tags="git,tech"><i class="fab fa-tumblr fa-fw"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-title="Managing Multiple Git Profiles"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-title="Managing Multiple Git Profiles"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-title="Managing Multiple Git Profiles" data-description="how to maintain multiple git profiles without much hassle"><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://rawatpallavi.com/posts/multiple-git-profiles/" data-title="Managing Multiple Git Profiles"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/git/">git</a>,&nbsp;<a href="/tags/tech/">tech</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Thought with <3</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Pallavi Rawat</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="https://rawatpallavi.disqus.com/embed.js" defer></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-T9E54QMD45', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-T9E54QMD45" async></script></body>
+</html>

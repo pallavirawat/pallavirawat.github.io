@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Home</title>
-        <link>https://rawatpallavi.com/</link>
-        <description>My personal space. Sometimes I blog also.</description>
+        <title>git - Tag - Home</title>
+        <link>https://rawatpallavi.com/tags/git/</link>
+        <description>git - Tag - Home</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>me@rawatpallavi.com (Pallavi Rawat)</managingEditor>
-            <webMaster>me@rawatpallavi.com (Pallavi Rawat)</webMaster><lastBuildDate>Sat, 11 Sep 2021 21:24:39 &#43;0530</lastBuildDate><atom:link href="https://rawatpallavi.com/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>me@rawatpallavi.com (Pallavi Rawat)</webMaster><lastBuildDate>Sat, 11 Sep 2021 21:24:39 &#43;0530</lastBuildDate><atom:link href="https://rawatpallavi.com/tags/git/" rel="self" type="application/rss+xml" /><item>
     <title>Managing Multiple Git Profiles</title>
     <link>https://rawatpallavi.com/posts/multiple-git-profiles/</link>
     <pubDate>Sat, 11 Sep 2021 21:24:39 &#43;0530</pubDate>

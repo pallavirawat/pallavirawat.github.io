@@ -4,5 +4,19 @@
         <link>https://rawatpallavi.com/categories/</link>
         <description>Categories - Category - Home</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>me@rawatpallavi.com (Pallavi Rawat)</managingEditor>
-            <webMaster>me@rawatpallavi.com (Pallavi Rawat)</webMaster><atom:link href="https://rawatpallavi.com/categories/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>me@rawatpallavi.com (Pallavi Rawat)</webMaster><lastBuildDate>Sat, 11 Sep 2021 21:24:39 &#43;0530</lastBuildDate><atom:link href="https://rawatpallavi.com/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>git</title>
+    <link>https://rawatpallavi.com/categories/git/</link>
+    <pubDate>Sat, 11 Sep 2021 21:24:39 &#43;0530</pubDate>
+    <author>Author</author>
+    <guid>https://rawatpallavi.com/categories/git/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>tech</title>
+    <link>https://rawatpallavi.com/categories/tech/</link>
+    <pubDate>Sat, 11 Sep 2021 21:24:39 &#43;0530</pubDate>
+    <author>Author</author>
+    <guid>https://rawatpallavi.com/categories/tech/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
